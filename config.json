@@ -1,0 +1,50 @@
+{
+  "server_info": {
+    "name": "QuantMCP",
+    "version": "2.0.0",
+    "description": "基于FastMCP和XTQuant的模块化量化交易服务器",
+    "author": "QuantMCP Team"
+  },
+  
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8000,
+    "transport": "sse"
+  },
+  
+  "trading_config": {
+    "default_capital": 1000000,
+    "max_position_ratio": 0.95,
+    "commission_rate": 0.0003,
+    "slippage": 0.001
+  },
+  
+  "strategy_config": {
+    "ma_cross": {
+      "short_range": [3, 5, 8, 10, 13],
+      "long_range": [20, 25, 30, 35, 40, 50, 60]
+    }
+  },
+  
+  "screening_config": {
+    "max_stocks_scan": 500,
+    "default_limit": 20,
+    "performance_mode": true,
+    "cache_timeout": 300
+  },
+  
+  "risk_control": {
+    "max_drawdown_limit": 0.25,
+    "min_sharpe_ratio": 0.5,
+    "max_leverage": 1.0,
+    "stop_loss_ratio": 0.1
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_path": "logs/quantmcp.log",
+    "max_file_size": "10MB",
+    "backup_count": 5
+  }
+} 
