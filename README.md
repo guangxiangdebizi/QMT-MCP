@@ -372,9 +372,11 @@ A: 在 `src/strategies/` 目录下创建新的策略模块，参考 `ma_strategy
 
 ## 📞 联系方式
 
-- 项目地址: [GitHub Repository]
-- 问题反馈: [Issues Page]
-- 文档: [Wiki Page]
+- 项目地址: https://github.com/guangxiangdebizi/QMT-MCP
+- 问题反馈: https://github.com/guangxiangdebizi/QMT-MCP/issues
+- 文档: https://github.com/guangxiangdebizi/QMT-MCP/wiki
+- 邮箱: guangxiangdebizi@gmail.com
+- LinkedIn: https://www.linkedin.com/in/%E6%98%9F%E5%AE%87-%E9%99%88-b5b3b0313/
 
 ---
 
