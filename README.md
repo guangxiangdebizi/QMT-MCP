@@ -1,4 +1,4 @@
-# 国金QMT-MCP - 模块化量化交易助手
+# QMT-MCP - 模块化量化交易助手
 
 <div align="center">
 
